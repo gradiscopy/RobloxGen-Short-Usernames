@@ -7,10 +7,10 @@ import asyncio
 from datetime import datetime
 import pytz
 
-TOKEN = ''
-GUILD_ID = ''
-CHANNEL_IDS = ['']
-SCRAPER_VERSION = '1.0'
+TOKEN = '' # discord bot token
+GUILD_ID = '' # server id
+CHANNEL_IDS = [''] # channel id that bot send users
+SCRAPER_VERSION = '1.0' # version
 
 intents = discord.Intents.default()
 intents.typing = False
