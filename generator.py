@@ -7,10 +7,10 @@ import asyncio
 from datetime import datetime
 import pytz
 
-TOKEN = 'MTEzNDE3NjA4MTkzNTYwNTg3Mg.G0iknh.QCeUI5l4OrfF4VKLLuvfJKvl_UO6nl46MFTq1Q'
-GUILD_ID = '1142573954389790880'
-CHANNEL_IDS = ['1173325602317664346']  # Добавьте все необходимые идентификаторы каналов
-SCRAPER_VERSION = '2.0 Premium'
+TOKEN = ''
+GUILD_ID = ''
+CHANNEL_IDS = ['']
+SCRAPER_VERSION = '1.0'
 
 intents = discord.Intents.default()
 intents.typing = False
